@@ -1,0 +1,19 @@
+{% extends "layouts/base.html" %}
+
+{% set projectItems = collections.projects %}
+
+{% block content %}
+<article>
+
+   <h1>{{ title }}</h1>
+   {{ content | safe }}
+
+</article>
+
+{% include "partials/projects.html" %}
+
+<article>
+   <p>You can reach me at</p>
+   <a href="mailto: contact@mail.com">contact@hmail.com →</a>
+</article>
+{% endblock %}
