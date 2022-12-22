@@ -3,17 +3,19 @@
 {% set projectItems = collections.projects %}
 
 {% block content %}
-<article>
+<div class="grid">
+   <article class="card ">
 
-   <h1>{{ title }}</h1>
-   {{ content | safe }}
+      <h1 class="font-base text-800 weight-normal">{{ title }}</h1>
+      {{ content | safe }}
 
-</article>
+   </article>
 
-{% include "partials/projects.html" %}
+   {% include "partials/projects.html" %}
 
-<article>
-   <p>You can reach me at</p>
-   <a href="mailto: contact@mail.com">contact@hmail.com →</a>
-</article>
+   <article class="card | bg-primary">
+      <p>You can reach me at</p>
+      <a href="mailto: contact@mail.com">contact@hmail.com →</a>
+   </article>
+</div>
 {% endblock %}
