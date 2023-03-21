@@ -4,18 +4,34 @@
 
 {% block content %}
 <div class="grid">
-   <article class="card ">
+   <article class="card | body-text heading center-text">
 
-      <h1 class="font-base text-800 weight-normal">{{ title }}</h1>
+      <h1 class="">{{ title }}</h1>
       {{ content | safe }}
 
    </article>
 
    {% include "partials/projects.html" %}
 
-   <article class="card | bg-primary">
-      <p>You can reach me at</p>
-      <a href="mailto: contact@mail.com">contact@hmail.com →</a>
+   <article class="card card__contact | flow heading body-text center-text | bg-primary">
+      <section>
+         <h2>Contact</h2>
+         <p>
+            You can reach me at:<a href="mailto: contact@mail.com" class="link"> contact@mail.com </a>
+         </p>
+         <p class="gap-top-500">
+            <a href="https://github.com/eribau" target="_blank" rel="noopener noreferrer" class="icon-link">
+               <svg class="icon | text-700">
+                  <use href="/images/icons/icons.svg#github-logo"></use>
+               </svg>
+            </a>
+         </p>
+      </section>
+      <section class="colophon | left-align">
+         <h3>Colophon</h3>
+         <p>Site made by Erik Bauer</p>
+         <p>Built with<a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer" class="link"> Eleventy </a></p>
+      </section>
    </article>
 </div>
 {% endblock %}

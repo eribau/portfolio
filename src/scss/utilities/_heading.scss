@@ -1,0 +1,21 @@
+.heading {
+    h1, h2, h3 {
+        @include apply-utility('font', 'base');
+        text-align: center;
+    }
+
+    h1 {
+        font-size: get-size('800');
+        @include apply-utility('weight', 'normal');
+    }
+
+    h2 {
+        font-size: get-size('600');
+        @include apply-utility('weight', 'bold');
+    }
+
+    h3 {
+        font-size: get-size('500');
+        @include apply-utility('weight', 'bold');
+    }
+}

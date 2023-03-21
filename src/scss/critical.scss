@@ -8,12 +8,21 @@
 
 // Import compositions
 @import 'compositions/grid.scss';
+@import 'compositions/icon.scss';
 
 // Import blocks
 @import 'blocks/card.scss';
+@import 'blocks/colophon.scss';
 
 // Import utilities
 @import 'utilities/flow';
 @import 'utilities/site-wrap';
 @import 'utilities/visually-hidden';
 @import 'utilities/wrapper';
+@import 'utilities/heading';
+@import 'utilities/center-text';
+@import 'utilities/body-text.scss';
+@import 'utilities/link';
+@import 'utilities/left-align';
+@import 'utilities/icon-link';
+

@@ -12,12 +12,12 @@ $gorko-base-size: 1rem;
  */
  
 $gorko-size-scale: (
-  '300': clamp(0.78rem, calc(0.68rem + 0.50vw), 1.28rem),
-  '400': clamp(0.94rem, calc(0.81rem + 0.66vw), 1.60rem),
-  '500': clamp(1.13rem, calc(0.95rem + 0.88vw), 2.00rem),
-  '600': clamp(1.35rem, calc(1.12rem + 1.15vw), 2.50rem),
-  '700': clamp(1.62rem, calc(1.32rem + 1.51vw), 3.13rem),
-  '800': clamp(1.94rem, calc(1.55rem + 1.96vw), 3.91rem),
+  '300': clamp(0.72rem, calc(0.70rem + 0.12vw), 0.84rem),
+  '400': clamp(0.90rem, calc(0.86rem + 0.23vw), 1.13rem),
+  '500': clamp(1.13rem, calc(1.05rem + 0.38vw), 1.50rem),
+  '600': clamp(1.41rem, calc(1.29rem + 0.59vw), 2.00rem),
+  '700': clamp(1.76rem, calc(1.58rem + 0.91vw), 2.67rem),
+  '800': clamp(2.20rem, calc(1.93rem + 1.36vw), 3.55rem),
 );
 
 /**

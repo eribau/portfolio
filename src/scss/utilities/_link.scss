@@ -1,0 +1,14 @@
+.link {
+    text-decoration: none;
+    color: "black";
+    padding: 0 get-size("300");
+
+    &:after {
+        content: " →";
+    }
+
+    &:hover {
+        background-color: get-color("light");
+        border-radius: get-size("300");
+    }
+}

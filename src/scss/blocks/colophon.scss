@@ -1,0 +1,12 @@
+.colophon {
+    a, p, h1, h2, h3 {
+        color: #2c2c2c;
+    }
+
+    position: absolute;
+    bottom: get-size('300');
+
+    p, a {
+        font-size: get-size('400');
+    }
+}

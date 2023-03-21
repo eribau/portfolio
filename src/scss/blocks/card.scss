@@ -1,3 +1,27 @@
 .card {
+   position: relative;
    height: 50vh;
+   padding: 0 get-size('300') get-size('300');
+
+   > img {
+      margin-left: auto;
+      margin-right: auto;
+      height: 50%;
+   }
+
+   &__project {
+      vertical-align: middle;
+      
+      a {
+         position: absolute;
+         bottom: get-size("400");
+         right: get-size("500");
+      }
+   }
+
+   &__contact {
+      a {
+         padding: 0 0;
+      }
+   }
 }

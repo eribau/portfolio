@@ -1,0 +1,5 @@
+.body-text {
+    @include apply-utility('font', 'sans');
+    @include apply-utility('weight', 'normal');
+    font-size: get-size('500');
+}

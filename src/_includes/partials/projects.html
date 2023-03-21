@@ -1,11 +1,12 @@
 {% if projectItems %}
 {% for item in projectItems %}
-<article class="card | wrapper | bg-{{ colors.items[loop.index] }}">
+<article class="card card__project | flow center-text heading body-text | bg-{{ colors.items[loop.index] }}">
    <img src="{{ item.data.image }}" alt="{{ item.data.alt }}" class="" />
-   <section>
-      <h2 class="font-base text-600">{{ item.data.name }}</h2>
-      <p class="font-sans">{{ item.data.explanation }}</p>
+   <section class="">
+      <h2 class="">{{ item.data.name }}</h2>
+      <p class="">{{ item.data.explanation }}</p>
    </section>
+   <a href="{{ item.data.link }}" target="_blank" rel="noopener noreferrer" class="link">Go to</a>
 </article>
 {% endfor %}
 {% endif %}

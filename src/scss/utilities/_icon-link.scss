@@ -1,0 +1,16 @@
+.icon-link {
+    text-decoration: none;
+    color: "black";
+    padding: 0 get-size("300");
+    
+    svg {
+        display: inline-block;
+        vertical-align: middle;
+        
+        &:hover {
+            background-color: get-color("light");
+            border-radius: get-size("300");
+        }
+    }
+
+}
