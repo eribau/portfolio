@@ -9,6 +9,7 @@
 // Import compositions
 @import 'compositions/grid.scss';
 @import 'compositions/icon.scss';
+@import 'compositions/center.scss';
 
 // Import blocks
 @import 'blocks/card.scss';
@@ -22,8 +23,7 @@
 @import 'utilities/heading';
 @import 'utilities/center-text';
 @import 'utilities/body-text.scss';
-@import 'utilities/link';
+@import 'utilities/cta';
 @import 'utilities/left-align';
-@import 'utilities/icon-link';
-@import 'utilities/center-vert'
+@import 'utilities/center-vert';
 

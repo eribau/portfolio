@@ -1,0 +1,6 @@
+.center {
+   box-sizing: content-box;
+   margin-left: auto;
+   margin-right: auto;
+   @include apply-utility('measure', 'long');
+ }

@@ -1,6 +1,18 @@
 .icon {
-    height: 0.75em;
-    height: 1cap;
-    width: 0.75em;
-    width: 1cap;
+    text-decoration: none;
+    color: "black";
+    padding: 0 get-size("300");
+    
+    svg {
+        height: 0.75em;
+        height: 1cap;
+        width: 0.75em;
+        width: 1cap;
+        display: inline-block;
+        vertical-align: middle;
+        
+        &:hover {
+            color: get-color("light");
+        }
+    }
 }
