@@ -8,8 +8,7 @@
         vertical-align: middle;
         
         &:hover {
-            background-color: get-color("light");
-            border-radius: get-size("300");
+            color: get-color("light");
         }
     }
 
