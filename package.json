@@ -8,7 +8,7 @@
     "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy"
   },
   "keywords": [],
-  "author": "",
+  "author": "Erik Bauer",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^1.0.2",
